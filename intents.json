@@ -1,0 +1,259 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Good day",
+        "hun bnu",
+        "snu",
+        "yu bn",
+        "hey",
+        "whas up",
+        "whats up",
+        "sain bnu"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Sn bnu mnai chatbotiig ashiglaj bgaad bayralaa",
+        "Tand yu heregtei ve?",
+        "Tand yaj tuslah ve?",
+        "Mnai chatbotiig ehluulsend bayrlalaa"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "Mnai chatbotiig ashiglasand bayrlalaa",
+        "Odriig saihan ongotuuleerei",
+        "Bayrtai",
+        "Daraa uulzay",
+        "bye"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure", "Tand tuslah taatai bla", "Mnai chatbotiig ashiglasand bayrlalaa"]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Which items do you have?",
+        "What kinds of items are there?",
+        "What do you sell?",
+        "who are you",
+        "what are you",
+        "chi hen be",
+        "chi odoo yu ve",
+        "chi yu ve",
+        "tnaih yu hiideg ve",
+        "thaih company yu",
+        "Tnaih surguuli yumu",
+        "Tnaih yum zardag uu"
+      ],
+      "responses": [
+        "Mnai chatbot ni engiin avtomat hariulagch bolno",
+        "Ta mnai surguuliin tuhai zarim medeellig avah bolomjtoi",
+        "Ta yuch asuusan bid tand tuslahdaa taatai bh bolno",
+        "Bid yamar neg company bish",
+        "This is just ChatBot"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Tolbor",
+        "Une",
+        "zarah",
+        "yum zarah uu"
+      ],
+      "responses": [
+        "Mnai chatbot ni engiin turshiltiin zagvar uchir ta husseneeree hereglej bolno",
+        "Bidend tolbor shaardlagagui dee",
+        "It is just a chatbot",
+        "Ta mnai surguuliin tolboriin tuhai medej bga bol FB huudasnaas medeelel avna uu"
+      ]
+    },
+    {
+      "tag": "about",
+      "patterns": [
+        "Tnaih yu hiidg ve",
+        "Tnaih yu ve",
+        "Surguuli yumu",
+        "surgiilinha tuhai"
+      ],
+      "responses": [
+        "Mnai surguuli ni computer bolon math-n gvnzgii surguuli bolno",
+        "Mnai surguuliin ner Olonlog.exe",
+        "Mnai surguuli ni baga dund ahlah angiin buh hicheeluudig ordog bga",
+        "Mnaih zarim hicheeliin gvnzgii surgalttai dund surguuli"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Do you know a joke?",
+        "neg shan yum yariach",
+        "setgel sergeeh ug heleech"
+      ],
+      "responses": [
+        "Zunii amralt aisui",
+        "Karantine duusav",
+        "Udahgui amarlaashde",
+        "Margaash nar madanaa",
+        "Zuer l shan amar, mni naiz",
+        "Shan amar",
+        "Onoodr ert tarna" 
+      ]
+    },
+    {
+      "tag": "Team",
+      "patterns": [
+        "Tnai bag heden huntei ve",
+        "Ene chatbotiig heduulee hiisen be",
+        "ta nar oluulaa yu",
+        "ene chatbotiig heduulee hiiv"
+      ],
+      "responses":[
+        "Bid 4uulee",
+        "mnai bag Narka, Hulan, Nomio bolon Gvnjee gsen 4 huntei",
+        "Bid 4uulee hamtarch ene chatbotiig hiisen bga",
+        "4"
+      ]
+    },
+    {
+      "tag": "members",
+      "patterns": [
+        "Tnai bagt hen hen bdag ve",
+        "gishuud",
+        "bureldehguun",
+        "humuus",
+        "members"
+      ],
+      "responses":[
+        "mnai bag Narka, Hulan, Nomio bolon Gvnjee gsen 4 huntei",
+        "Naranbileg, NominErdere, Khulan, Gvnjee"
+      ]
+    },
+    {
+      "tag": "class",
+      "patterns": [
+        "chi heddugeer angi ve",
+        "angi",
+        "heddugeer angi ve",
+        "angi buleg"
+      ],
+      "responses":[
+        "Ene chatotiig 10a angiin bag beltelee",
+        "10a",
+        "10 dugaar angiin a buleg",
+        "ahlah angiinhaa "
+      ]
+    },
+    {
+      "tag": "training",
+      "patterns": [
+        "yamar hicheel gvnzgiiruulj sudaldag ve",
+        "hicheeluud",
+        "gvnzgii",
+        "computer",
+        "math",
+        "english",
+        "Hicheeliin tuhai",
+        "hicheeluud ni yamar ve"
+      ],
+      "responses":[
+        "Mnai surguuli ni baga dund ahlah angiin buh hicheeluudig ordog bga",
+        "Olonlog.Exe surguuli ni math computer english gesen hicheeluudeer gvnzgiirdeg bga",
+        "Bi code bichih hicheeluudiig tulhuu uzdeg"
+      ]
+    },
+    {
+      "tag": "teacher",
+      "patterns": [
+        "bagsh",
+        "bagsh nariin tuhai",
+        "hicheeliin bagsh nar",
+        "yamar bagsh nar hicheeluud ordog ve"
+      ],
+      "responses":[
+        "Mnai surguuli ni 1-12 angiin niit ? bagsh nartai",
+        "10 dugaar angid gehed Adiyasuren, Dugersuren, Batbileg, Tuya, Munkhbayar ... bagsh nar hicheel ordog"
+      ]
+    },
+    {
+      "tag": "number",
+      "patterns": [
+        "neg angid heden huuhed bdag ve",
+        "tnai angid heden huuhed bdag ve",
+        "niit angi duurgelt",
+        "angiih huuhdiin too",
+        "neg angid hden suragch bh ve"
+      ],
+      "responses":[
+        "Mnai angid bol 22 huuhed surdaga",
+        "Mnai surguuli angi angias hamaarch oor oor toonii angi duurgelttei bdag bga",
+        "Neg angid 25-s iluugui huuhed suraltsdag"
+      ]
+    },
+    {
+      "tag": "lesson",
+      "patterns": [
+        "Odoo hicheellej bga yu",
+        "hicheel orj bga yu",
+        "odoo hicheel oroh yu",
+        "surguuli ni ajillaj bga yu"
+      ],
+      "responses":[
+        "Bid odoogiin nohtsol bdlaas shaltgaalan online-r hicheellej bna",
+        "Bid hol horionii ulmaas tsahimaar hicheellej bna",
+        "Bid Teams ashiglan odoogoor online-r hicheeldee suutsgaaj bna"
+      ]
+    },
+    {
+      "tag": "point",
+      "patterns": [
+        "yamar onoo avmaar bna",
+        "point"
+      ],
+      "responses":[
+        "100%"
+      ]
+    },
+    {
+      "tag": "location",
+      "patterns": [
+        "tnai surguuli haana ve",
+        "Location",
+        "bairshil"
+      ],
+      "responses":[
+        "Tedy toviin ertontsiin zugeer baruun tald",
+        "Naiman shargiin hajuu tald",
+        "Urt tsagaand"
+      ]
+    },
+    {
+      "tag": "",
+      "patterns": [
+
+      ],
+      "responses":[
+        
+      ]
+    },
+    {
+      "tag": "",
+      "patterns": [
+
+      ],
+      "responses":[
+        
+      ]
+    }
+  ]
+}
