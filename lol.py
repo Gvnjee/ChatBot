@@ -46,7 +46,8 @@ ehleh=Label(root, text="Чатботыг эхлүүллээ. Хэрэв та б�
 #Yeronhii heseg
 def Take_input():
     sentence = inputtxt.get("1.0", "end-1c")
-    Output.insert(END, 'Та : ', sentence)
+    Output.insert(END, 'Та : ')
+    Output.insert(END, sentence)
 
     if sentence == "stop":
         exit()
@@ -67,7 +68,9 @@ def Take_input():
     if prob.item() > 0.75:
         for intent in intents['intents']:
             if tag == intent["tag"]:
-                Output.insert(END, "Хариулагч : {random.choice(intent['responses'])}")
+                hariu=random.choice(intent['responses'])
+                Output.insert(END, "Хариулагч : ")
+                Output.insert(END, hariu)
     else:
         Output.insert(END, "Хариулагч : Ойлгомжгүй байна. Дахиад өөрөөр лавлана уу")
 
