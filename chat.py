@@ -28,7 +28,6 @@ model.eval()
 bot_name = "Чатбот"
 print("Чатботыг эхлүүллээ. Хэрэв та болих бол stop гэж бичнэ үү!")
 while True:
-    # sentence = "do you use credit cards?"
     sentence = input("Та: ")
     if sentence == "stop":
         break
